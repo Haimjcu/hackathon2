@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.9.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "hackathon2",
+  "version": "1.0.0",
+  "main": "scripts_register.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

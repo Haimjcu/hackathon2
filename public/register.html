@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Band and Venue Guide</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="http://localhost:3000/"><img src="images/logo.png" alt=""></a></div>
+        <ul id="navlist">
+            <li><a href="http://localhost:3000/newevent">New Event</a></li>
+            <li><a href="http://localhost:3000/register">Register</a></li>
+            <li><a href="http://localhost:3000/login">Login</a></li>
+        </ul>
+    </nav>
+    <section id="register">
+        <h1>Register</h1>
+        <form id="registerform" onsubmit="register(event)">
+            <input type="text" name="firstname" id="firstname" placeholder="First Name">
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="password" name="pwd" id="pwd" placeholder="Password">
+            <select name="type" id="type">
+                <option value="">Select Account Type</option>
+                <option value="band">Band</option>
+                <option value="venue">Venue</option>
+            </select>
+            <input type="text" name="entityname" id="entityname" placeholder="Name">
+            <input type="url" name="website" id="website" placeholder="mysite.com">
+            <input type="text" name="typeofmusic" id="typeofmusic" placeholder="Music Category">
+            <input type="text" name="address" id="address" placeholder="Full Address">
+            <button type="submit">Submit</button>
+        </div>
+    </section>
+    <script src="scripts_register.js"></script>
+</body>
+</html>

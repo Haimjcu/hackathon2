@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1f2545;
+    color:#ffffff;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+#navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 50px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+#header, #register {
+    background-color: #00c6cd;
+    color:#ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+button {
+    background-color: #2553f0;
+    color: #ffffff;
+    border: 1px solid #1f2545;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#todaysEvents {
+    background-color: #26B69F;
+    color:#ffffff;
+    padding: 50px 100px;
+}
+
+#bandName, #venueName, #atthe {
+    display:inline-block;
+}
+
+#atthe {
+    padding: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color:#ffffff
+}
+
+#register {
+    padding: 0px 45% 0 50%;
+}
+
+#registerform > * {
+    display: block;
+    margin: 10px 0;
+}
