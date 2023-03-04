@@ -57,7 +57,9 @@ const _getAllBands = (req, res) => {
     const html = arr.map(events => {
         return `<div><div id="bandName">${events.band}</div>
         <div id="atthe">@</div>
-        <div id="venueName">${events.venue}</div><div id="venueName">${events.eventdate}</div></div>`
+        <div id="venueName">${events.venue}</div>
+        <div id="atthe">on</div>
+        <div id="venueName">${events.eventdate.toISOString().slice(0, 10)}</div></div>`
     })
     return html.join('');
   }

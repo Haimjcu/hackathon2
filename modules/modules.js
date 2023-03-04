@@ -32,6 +32,7 @@ const getAllBands = () => {
     .select('b.entityname as band','v.entityname as venue')
     .innerJoin('account as b', 'e.band_id', 'b.account_id')
     .innerJoin('account as v', 'e.venue_id', 'v.account_id')
+    .where('eventdate','=', today) 
   }
 
   const getAccount = (id) => {

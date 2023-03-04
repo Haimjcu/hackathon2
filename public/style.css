@@ -50,6 +50,7 @@ button {
     background-color: #26B69F;
     color:#ffffff;
     padding: 50px 100px;
+    text-align: center;
 }
 
 #bandName, #venueName, #atthe {
@@ -65,11 +66,11 @@ a {
     color:#ffffff
 }
 
-#register {
+/* #register {
     padding: 0px 45% 0 50%;
-}
+} */
 
 #registerform > * {
     display: block;
-    margin: 10px 0;
+    margin: 10px auto;
 }
