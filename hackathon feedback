@@ -1,0 +1,8 @@
+Band and Venue Guide
+First of all great job on the project!
+You've shown high understanding of the studied material and executed your idea very well!
+Your file structure is good with the folders routes,modules and controllers.
+Good requests to database!
+I would make sure that after registering you need to log in to add an event.
+And when you log in remove the register button and have a log out button ( you might have had one that I missed let me know).
+Again, wonderful job !
